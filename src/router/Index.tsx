@@ -14,7 +14,7 @@ import ProtectedRoute from "../components/auth/ProtectedRoute";
 import ErrorHandler from "../errors/ErrorHandler";
 import PageNotFound from "../pages/PageNotFound";
 
-const isLoggedIn = true;
+const isLoggedIn = false;
 const userData: { email: string } | null = isLoggedIn ? { email: "kero@gmail.com" } : null;
 
 const router = createBrowserRouter(
